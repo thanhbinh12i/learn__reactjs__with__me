@@ -9,8 +9,8 @@ function Menu() {
       return (
             <>
                   <ul>
-                        {arrayMenu.map((item, index) => 
-                                    <li key={index}>{item}</li>
+                        {arrayMenu.map((item, index) =>
+                              <li key={index}>{item}</li>
                         )}
                   </ul>
 
