@@ -1,5 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
 import { completedTodo, deleteTodo } from "../../actions/todos";
+import { FaCheck} from "react-icons/fa";
 
 function TodoList() {
       const todoList = useSelector(state => state.todosReducer);
@@ -22,7 +23,7 @@ function TodoList() {
                                                       {item.completed ? (
                                                             <></>
                                                       ) : (
-                                                            <button onClick={() => handleCompleted(item.id)}>V</button>
+                                                            <button onClick={() => handleCompleted(item.id)}><FaCheck /></button>
                                                       ) }
                                                       <button onClick={() => handleDelete(item.id)}>X</button>
                                                 </li>

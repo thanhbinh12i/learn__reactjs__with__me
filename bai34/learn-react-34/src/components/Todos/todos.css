@@ -71,22 +71,12 @@
       border: 1px solid #ccc;
 }
 
-.todo__item button:first-child {
+.todo__item button {
       background-color: #ffc107;
       color: #fff;
       border-color: #ffc107;
 }
 
-.todo__item button:first-child:hover {
+.todo__item button:hover {
       background-color: #e0a800;
-}
-
-.todo__item button:last-child {
-      background-color: #dc3545;
-      color: #fff;
-      border-color: #dc3545;
-}
-
-.todo__item button:last-child:hover {
-      background-color: #c82333;
 }
