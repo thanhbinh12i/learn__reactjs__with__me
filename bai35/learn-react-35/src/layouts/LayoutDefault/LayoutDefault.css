@@ -1,0 +1,81 @@
+.header {
+      padding: 10px;
+      background-color: #f8f9fa;
+      text-align: center;
+    }
+    
+    .nav {
+      margin-top: 10px;
+    }
+    
+    .nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #007bff;
+      padding: 8px 12px;
+      border-radius: 4px;
+    }
+    
+    .nav a.active-link {
+      font-weight: bold;
+      color: #0056b3;
+      background-color: #e9ecef;
+    }
+    
+    .blog-dropdown {
+      display: inline-block;
+      position: relative;
+    }
+    
+    .blog-menu {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #ffffff;
+      list-style: none;
+      padding: 10px 0;
+      margin: 0;
+      border: 1px solid #ddd;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 4px;
+      min-width: 160px;
+      z-index: 1;
+    }
+    
+    /* Hiển thị menu khi hover vào blog-dropdown hoặc blog-menu */
+    .blog-dropdown:hover .blog-menu,
+    .blog-menu:hover {
+      display: block;
+    }
+    
+    .blog-menu li {
+      padding: 8px 16px;
+      white-space: nowrap;
+    }
+    
+    .blog-menu li:not(:last-child) {
+      border-bottom: 1px solid #f1f1f1;
+    }
+    
+    .blog-menu li a {
+      color: #343a40;
+      text-decoration: none;
+    }
+    
+    .blog-menu li a.active-link {
+      color: #007bff;
+      font-weight: bold;
+    }
+    
+    .blog-menu li a:hover {
+      background-color: #f1f1f1;
+      border-radius: 4px;
+    }
+    
+    .footer {
+      padding: 10px;
+      background-color: #f8f9fa;
+      text-align: center;
+    }
+    
