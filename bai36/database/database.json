@@ -1,0 +1,331 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "iPhone 5s",
+      "description": "The iPhone 5s is a classic smartphone known for its compact design and advanced features during its release. While it's an older model, it still provides a reliable user experience.",
+      "price": 199.99,
+      "discountPercentage": 11.85,
+      "rating": 3.92,
+      "stock": 65,
+      "category": "smartphones",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/smartphones/iPhone%205s/thumbnail.png"
+    },
+    {
+      "id": "3",
+      "title": "iPhone 13 Pro",
+      "description": "The iPhone 13 Pro is a cutting-edge smartphone with a powerful camera system, high-performance chip, and stunning display. It offers advanced features for users who demand top-notch technology.",
+      "price": 1099.99,
+      "discountPercentage": 18.3,
+      "rating": 3.42,
+      "stock": 26,
+      "category": "smartphones",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/smartphones/iPhone%2013%20Pro/thumbnail.png"
+    },
+    {
+      "id": "4",
+      "title": "iPhone X",
+      "description": "The iPhone X is a flagship smartphone featuring a bezel-less OLED display, facial recognition technology (Face ID), and impressive performance. It represents a milestone in iPhone design and innovation.",
+      "price": 899.99,
+      "discountPercentage": 14.19,
+      "rating": 4.96,
+      "stock": 99,
+      "category": "smartphones",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/smartphones/iPhone%20X/thumbnail.png"
+    },
+    {
+      "id": "5",
+      "title": "Oppo A57",
+      "description": "The Oppo A57 is a mid-range smartphone known for its sleek design and capable features. It offers a balance of performance and affordability, making it a popular choice.",
+      "price": 249.99,
+      "discountPercentage": 12.17,
+      "rating": 3.1,
+      "stock": 76,
+      "category": "smartphones",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/smartphones/Oppo%20A57/thumbnail.png"
+    },
+    {
+      "id": "6",
+      "title": "Oppo F19 Pro Plus",
+      "description": "The Oppo F19 Pro Plus is a feature-rich smartphone with a focus on camera capabilities. It boasts advanced photography features and a powerful performance for a premium user experience.",
+      "price": 399.99,
+      "discountPercentage": 15.62,
+      "rating": 2.57,
+      "stock": 92,
+      "category": "smartphones",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/smartphones/Oppo%20F19%20Pro%20Plus/thumbnail.png"
+    },
+    {
+      "id": "7",
+      "title": "Oppo K1",
+      "description": "The Oppo K1 series offers a range of smartphones with various features and specifications. Known for their stylish design and reliable performance, the Oppo K1 series caters to diverse user preferences.",
+      "price": 299.99,
+      "discountPercentage": 14.58,
+      "rating": 3.39,
+      "stock": 61,
+      "category": "smartphones",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/smartphones/Oppo%20K1/thumbnail.png"
+    },
+    {
+      "id": "8",
+      "title": "Realme C35",
+      "description": "The Realme C35 is a budget-friendly smartphone with a focus on providing essential features for everyday use. It offers a reliable performance and user-friendly experience.",
+      "price": 149.99,
+      "discountPercentage": 16.47,
+      "rating": 2.56,
+      "stock": 81,
+      "category": "smartphones",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/smartphones/Realme%20C35/thumbnail.png"
+    },
+    {
+      "id": "9",
+      "title": "Realme X",
+      "description": "The Realme X is a mid-range smartphone known for its sleek design and impressive display. It offers a good balance of performance and camera capabilities for users seeking a quality device.",
+      "price": 299.99,
+      "discountPercentage": 2.39,
+      "rating": 4.42,
+      "stock": 87,
+      "category": "smartphones",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/smartphones/Realme%20X/thumbnail.png"
+    },
+    {
+      "id": "10",
+      "title": "Realme XT",
+      "description": "The Realme XT is a feature-rich smartphone with a focus on camera technology. It comes equipped with advanced camera sensors, delivering high-quality photos and videos for photography enthusiasts.",
+      "price": 349.99,
+      "discountPercentage": 3.03,
+      "rating": 4.14,
+      "stock": 53,
+      "category": "smartphones",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/smartphones/Realme%20XT/thumbnail.png"
+    },
+    {
+      "id": "11",
+      "title": "Basketball Rim",
+      "description": "The Basketball Rim is a sturdy hoop and net assembly mounted on a basketball backboard. It provides a target for shooting and scoring in the game of basketball.",
+      "price": 39.99,
+      "discountPercentage": 6.02,
+      "rating": 4.98,
+      "stock": 57,
+      "category": "sports-accessories",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/sports-accessories/Basketball%20Rim/thumbnail.png"
+    },
+    {
+      "id": "12",
+      "title": "Cricket Ball",
+      "description": "The Cricket Ball is a hard leather ball used in the sport of cricket. It is bowled and batted in the game, and its hardness and seam contribute to the dynamics of cricket play.",
+      "price": 12.99,
+      "discountPercentage": 12.93,
+      "rating": 4.43,
+      "stock": 42,
+      "category": "sports-accessories",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/sports-accessories/Cricket%20Ball/thumbnail.png"
+    },
+    {
+      "id": "13",
+      "title": "Cricket Bat",
+      "description": "The Cricket Bat is an essential piece of cricket equipment used by batsmen to hit the cricket ball. It is made of wood and comes in various sizes and designs.",
+      "price": 29.99,
+      "discountPercentage": 9.03,
+      "rating": 3.07,
+      "stock": 3,
+      "category": "sports-accessories",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/sports-accessories/Cricket%20Bat/thumbnail.png"
+    },
+    {
+      "id": "14",
+      "title": "Cricket Helmet",
+      "description": "The Cricket Helmet is a protective headgear worn by cricket players, especially batsmen and wicketkeepers. It provides protection against fast bowling and bouncers.",
+      "price": 44.99,
+      "discountPercentage": 10.75,
+      "rating": 3.34,
+      "stock": 31,
+      "category": "sports-accessories",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/sports-accessories/Cricket%20Helmet/thumbnail.png"
+    },
+    {
+      "id": "15",
+      "title": "Cricket Wicket",
+      "description": "The Cricket Wicket is a set of three stumps and two bails, forming a wicket used in the sport of cricket. Batsmen aim to protect the wicket while scoring runs.",
+      "price": 29.99,
+      "discountPercentage": 8.79,
+      "rating": 4.16,
+      "stock": 31,
+      "category": "sports-accessories",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/sports-accessories/Cricket%20Wicket/thumbnail.png"
+    },
+    {
+      "id": "16",
+      "title": "Feather Shuttlecock",
+      "description": "The Feather Shuttlecock is used in the sport of badminton. It features natural feathers and is designed for high-speed play, providing stability and accuracy during matches.",
+      "price": 5.99,
+      "discountPercentage": 10.24,
+      "rating": 3.95,
+      "stock": 17,
+      "category": "sports-accessories",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/sports-accessories/Feather%20Shuttlecock/thumbnail.png"
+    },
+    {
+      "id": "17",
+      "title": "Football",
+      "description": "The Football, also known as a soccer ball, is the standard ball used in the sport of football (soccer). It is designed for kicking and passing in the game.",
+      "price": 17.99,
+      "discountPercentage": 0.59,
+      "rating": 3.94,
+      "stock": 66,
+      "category": "sports-accessories",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/sports-accessories/Football/thumbnail.png"
+    },
+    {
+      "id": "18",
+      "title": "Golf Ball",
+      "description": "The Golf Ball is a small ball used in the sport of golf. It features dimples on its surface, providing aerodynamic lift and distance when struck by a golf club.",
+      "price": 9.99,
+      "discountPercentage": 19.38,
+      "rating": 4.84,
+      "stock": 45,
+      "category": "sports-accessories",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/sports-accessories/Golf%20Ball/thumbnail.png"
+    },
+    {
+      "id": "19",
+      "title": "Pacifica Touring",
+      "description": "The Pacifica Touring is a stylish and well-equipped minivan, offering comfort and convenience for family journeys.",
+      "price": 31999.99,
+      "discountPercentage": 6.89,
+      "rating": 2.96,
+      "stock": 22,
+      "category": "vehicle",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/vehicle/Pacifica%20Touring/thumbnail.png"
+    },
+    {
+      "id": "20",
+      "title": "Blue Women's Handbag",
+      "description": "The Blue Women's Handbag is a stylish and spacious accessory for everyday use. With a vibrant blue color and multiple compartments, it combines fashion and functionality.",
+      "price": 49.99,
+      "discountPercentage": 5.24,
+      "rating": 3.37,
+      "stock": 76,
+      "category": "womens-bags",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/womens-bags/Blue%20Women's%20Handbag/thumbnail.png"
+    },
+    {
+      "id": "21",
+      "title": "Heshe Women's Leather Bag",
+      "description": "The Heshe Women's Leather Bag is a luxurious and high-quality leather bag for the sophisticated woman. With a timeless design and durable craftsmanship, it's a versatile accessory.",
+      "price": 129.99,
+      "discountPercentage": 7.74,
+      "rating": 2.62,
+      "stock": 9,
+      "category": "womens-bags",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/womens-bags/Heshe%20Women's%20Leather%20Bag/thumbnail.png"
+    },
+    {
+      "id": "22",
+      "title": "Lenovo Yoga 920",
+      "description": "The Lenovo Yoga 920 is a 2-in-1 convertible laptop with a flexible hinge, allowing you to use it as a laptop or tablet, offering versatility and portability.",
+      "price": 1099.99,
+      "discountPercentage": 7.77,
+      "rating": 2.98,
+      "stock": 71,
+      "category": "laptops",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/laptops/Lenovo%20Yoga%20920/thumbnail.png"
+    },
+    {
+      "id": "23",
+      "title": "New DELL XPS 13 9300 Laptop",
+      "description": "The New DELL XPS 13 9300 Laptop is a compact and powerful device, featuring a virtually borderless InfinityEdge display and high-end performance for various tasks.",
+      "price": 1499.99,
+      "discountPercentage": 11.7,
+      "rating": 2.98,
+      "stock": 18,
+      "category": "laptops",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/laptops/New%20DELL%20XPS%2013%209300%20Laptop/thumbnail.png"
+    },
+    {
+      "id": "24",
+      "title": "Blue & Black Check Shirt",
+      "description": "The Blue & Black Check Shirt is a stylish and comfortable men's shirt featuring a classic check pattern. Made from high-quality fabric, it's suitable for both casual and semi-formal occasions.",
+      "price": 29.99,
+      "discountPercentage": 1.41,
+      "rating": 4.19,
+      "stock": 44,
+      "category": "mens-shirts",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/mens-shirts/Blue%20&%20Black%20Check%20Shirt/thumbnail.png"
+    },
+    {
+      "id": "25",
+      "title": "Man Short Sleeve Shirt",
+      "description": "The Man Short Sleeve Shirt is a breezy and stylish option for warm days. With a comfortable fit and short sleeves, it's perfect for a laid-back yet polished look.",
+      "price": 19.99,
+      "discountPercentage": 8.65,
+      "rating": 4.62,
+      "stock": 20,
+      "category": "mens-shirts",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/mens-shirts/Man%20Short%20Sleeve%20Shirt/thumbnail.png"
+    },
+    {
+      "id": "26",
+      "title": "Men Check Shirt",
+      "description": "The Men Check Shirt is a classic and versatile shirt featuring a stylish check pattern. Suitable for various occasions, it adds a smart and polished touch to your wardrobe.",
+      "price": 27.99,
+      "discountPercentage": 14.21,
+      "rating": 2.9,
+      "stock": 69,
+      "category": "mens-shirts",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/mens-shirts/Men%20Check%20Shirt/thumbnail.png"
+    },
+    {
+      "id": "27",
+      "title": "Nike Air Jordan 1 Red And Black",
+      "description": "The Nike Air Jordan 1 in Red and Black is an iconic basketball sneaker known for its stylish design and high-performance features, making it a favorite among sneaker enthusiasts and athletes.",
+      "price": 149.99,
+      "discountPercentage": 15.82,
+      "rating": 2.77,
+      "stock": 15,
+      "category": "mens-shoes",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/mens-shoes/Nike%20Air%20Jordan%201%20Red%20And%20Black/thumbnail.png"
+    },
+    {
+      "id": "28",
+      "title": "Asus Zenbook Pro Dual Screen Laptop",
+      "description": "The Asus Zenbook Pro Dual Screen Laptop is a high-performance device with dual screens, providing productivity and versatility for creative professionals.",
+      "price": 1799.99,
+      "discountPercentage": 9.21,
+      "rating": 3.14,
+      "stock": 38,
+      "category": "laptops",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/laptops/Asus%20Zenbook%20Pro%20Dual%20Screen%20Laptop/thumbnail.png"
+    },
+    {
+      "id": "29",
+      "title": "Huawei Matebook X Pro",
+      "description": "The Huawei Matebook X Pro is a slim and stylish laptop with a high-resolution touchscreen display, offering a premium experience for users on the go.",
+      "price": 1399.99,
+      "discountPercentage": 15.25,
+      "rating": 4.62,
+      "stock": 34,
+      "category": "laptops",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/laptops/Huawei%20Matebook%20X%20Pro/thumbnail.png"
+    },
+    {
+      "id": "30",
+      "title": "Apple MacBook Pro 14 Inch Space Grey",
+      "description": "The MacBook Pro 14 Inch in Space Grey is a powerful and sleek laptop, featuring Apple's M1 Pro chip for exceptional performance and a stunning Retina display.",
+      "price": "1999.999",
+      "discountPercentage": "9.202",
+      "rating": 3.13,
+      "stock": 39,
+      "category": "laptops",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/laptops/Apple%20MacBook%20Pro%2014%20Inch%20Space%20Grey/thumbnail.png"
+    },
+    {
+      "id": "669a",
+      "title": "Essence Mascara Lash Princess",
+      "price": "12",
+      "discountPercentage": "1.5",
+      "stock": "20",
+      "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/thumbnail.png"
+    }
+  ]
+}
