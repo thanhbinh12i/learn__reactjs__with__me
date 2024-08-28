@@ -1,16 +1,27 @@
-import { Button, Form, Input, InputNumber, Select, Switch } from "antd";
+import { Button, Form, Input, InputNumber, message, Select, Switch } from "antd";
 import { createRoom } from "../../services/roomsServices";
-const {Option} = Select;
+const { Option } = Select;
 function CreateRoom() {
       const [form] = Form.useForm();
+      const [messageApi, contextHolder] = message.useMessage();
       const handleSubmit = async (values) => {
             const response = await createRoom(values);
-            if(response){
+            if (response) {
                   form.resetFields();
+                  messageApi.open({
+                        type: 'success',
+                        content: 'Tạo phòng mới thành công',
+                  });
+            } else {
+                  messageApi.open({
+                        type: 'error',
+                        content: 'Error',
+                  });
             }
       }
       return (
             <>
+                  {contextHolder}
                   <h2>Thêm phòng mới</h2>
                   <Form layout="vertical" name="create-room" onFinish={handleSubmit} form={form}>
                         <Form.Item
@@ -47,10 +58,10 @@ function CreateRoom() {
                               </Select>
                         </Form.Item>
                         <Form.Item valuePropName="checked" label="Trạng thái" name="status">
-                              <Switch checkedChildren="Còn phòng" unCheckedChildren="Hết phòng"/>
+                              <Switch checkedChildren="Còn phòng" unCheckedChildren="Hết phòng" />
                         </Form.Item>
                         <Form.Item valuePropName="checked" label="Loại phòng" name="typeRoom">
-                              <Switch checkedChildren="VIP" unCheckedChildren="Thường"/>
+                              <Switch checkedChildren="VIP" unCheckedChildren="Thường" />
                         </Form.Item>
                         <Form.Item>
                               <Button type="primary" htmlType="submit">

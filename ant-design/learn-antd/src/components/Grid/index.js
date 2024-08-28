@@ -1,5 +1,5 @@
 import React from 'react';
-import { Carousel, Col, Collapse, Image, Row, Tabs } from 'antd';
+import { Carousel, Col, Collapse, Image, QRCode, Rate, Row, Tabs } from 'antd';
 import CardItem from '../CardItem';
 import "./LearnGrid.scss"
 const { Panel } = Collapse;
@@ -93,6 +93,13 @@ function LearnGrid() {
                   <Image width={200}
                         src="https://gw.alipayobjects.com/zos/antfincdn/aPkFc8Sj7n/method-draw-image.svg" />
                   <Tabs defaultActiveKey="1" items={items} />
+
+                  <QRCode
+                        errorLevel="H"
+                        value="https://ant.design/"
+                        icon="https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg"
+                  />
+                  <Rate allowHalf />
             </>
       );
 

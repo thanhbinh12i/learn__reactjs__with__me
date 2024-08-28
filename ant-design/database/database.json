@@ -22,7 +22,7 @@
       "name": "Phòng 101",
       "quantityBed": 2,
       "quantityPeople": 4,
-      "description": "Nhà nghỉ",
+      "description": "Phòng đôi",
       "utils": [
         "Wifi",
         "Điều hòa"
@@ -46,7 +46,7 @@
       "id": "689d",
       "name": "Phòng 103",
       "quantityBed": 1,
-      "quantityPeople": 2,
+      "quantityPeople": 3,
       "description": "Phòng đơn VIP",
       "utils": [
         "Wifi",
@@ -54,6 +54,44 @@
       ],
       "status": true,
       "typeRoom": true
+    },
+    {
+      "id": "b379",
+      "name": "Phòng 201",
+      "quantityBed": 3,
+      "quantityPeople": 6,
+      "description": "Phòng homestay",
+      "utils": [
+        "Wifi",
+        "Điều hòa"
+      ],
+      "status": true,
+      "typeRoom": true
+    },
+    {
+      "id": "4658",
+      "name": "Phòng 202",
+      "quantityBed": 1,
+      "quantityPeople": 2,
+      "description": "Phòng đơn",
+      "utils": [
+        "Wifi",
+        "Điều hòa"
+      ],
+      "status": true
+    },
+    {
+      "id": "011b",
+      "name": "Phòng 203",
+      "quantityBed": 2,
+      "quantityPeople": 4,
+      "description": "Phòng đôi",
+      "utils": [
+        "Wifi",
+        "Điều hòa"
+      ],
+      "status": true,
+      "typeRoom": false
     }
   ]
 }
