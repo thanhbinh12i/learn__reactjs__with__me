@@ -1,0 +1,59 @@
+{
+  "book-room": [
+    {
+      "id": "5b84",
+      "time": "8 giờ",
+      "fullName": "Bình Nguyễn",
+      "phone": "0905024174",
+      "email": "nptbinh17092004@gmail.com",
+      "services": [
+        "Thuê xe máy"
+      ],
+      "gift": "Thuê ô tô 4 chỗ",
+      "date": [
+        "28-08-2024",
+        "31-08-2024"
+      ]
+    }
+  ],
+  "rooms": [
+    {
+      "id": "40aa",
+      "name": "Phòng 101",
+      "quantityBed": 2,
+      "quantityPeople": 4,
+      "description": "Nhà nghỉ",
+      "utils": [
+        "Wifi",
+        "Điều hòa"
+      ],
+      "status": true
+    },
+    {
+      "id": "379c",
+      "name": "Phòng 102",
+      "quantityBed": 2,
+      "quantityPeople": 4,
+      "description": "Phòng view đẹp",
+      "utils": [
+        "Điều hòa",
+        "Wifi"
+      ],
+      "status": true,
+      "typeRoom": true
+    },
+    {
+      "id": "689d",
+      "name": "Phòng 103",
+      "quantityBed": 1,
+      "quantityPeople": 2,
+      "description": "Phòng đơn VIP",
+      "utils": [
+        "Wifi",
+        "Điều hòa"
+      ],
+      "status": true,
+      "typeRoom": true
+    }
+  ]
+}
